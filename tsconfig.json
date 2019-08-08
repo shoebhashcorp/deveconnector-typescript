@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "outDir": "./built",
+    "allowJs": true,
+    "target": "es5"
+  },
+  "include": ["./routes/**/*"],
+  "exclude": ["node_modules", "models", "config", "client"]
+}
